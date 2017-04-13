@@ -1,4 +1,4 @@
-# autogravity-test
+# ag-cucumber-test
 
 ## Preconditions ##
 * Clone repo
