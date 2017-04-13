@@ -3,6 +3,7 @@ require 'capybara/poltergeist'
 require 'rspec'
 require 'yaml'
 require_relative '../modules/base_page.rb'
+require_relative '../modules/form_module.rb'
 
 config = YAML.load_file(File.dirname(__FILE__) + '/config.yml')
 
