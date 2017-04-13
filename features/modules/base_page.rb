@@ -17,4 +17,7 @@ class BasePage
     find(@header + '+div>div:nth-child(1)')
   end
 
+  def all_text
+    base_content.text
+  end
 end
