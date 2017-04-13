@@ -1,0 +1,7 @@
+user_agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:51.0) Gecko/20100101 Firefox/51.0
+resolution: 1280:900
+default_max_timeout: 60
+prd:
+  base_url: https://apply.autogravity.com
+  email: test_automation@mailinator.com
+  password: Qwerty12
