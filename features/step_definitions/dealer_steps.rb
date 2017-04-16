@@ -1,3 +1,7 @@
+When(/^I fill in the dealership address with: "(.*?)"$/) do |address|
+  @dealer_page.map_search(address)
+end
+
 When(/^I select the (\d+) dealership$/) do |num|
   @dealer_page.select_dealership(num)
 end

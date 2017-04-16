@@ -11,6 +11,7 @@ Feature: Autogravity - lease a car
     And I can see the lease cost
     And I can see the lease term
     And I click on "SELECT LEASE" button
+    And I fill in the dealership address with: "Irvine"
     And I select the 1 dealership
     And I click "SELECT THIS DEALER" button
     And I click "START FINANCING" button
